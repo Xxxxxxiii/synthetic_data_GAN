@@ -1,7 +1,7 @@
 # 2025/11/11
 冷却塔模型合成数据
 ## **合成数据**
-synthetic_data(filtered)_v1_251111.xlsx
+synthetic_data_filtered_v1_251111.xlsx
 ## **数据条数**
 242682 rows × 13 columns
 ## **字段含义**
