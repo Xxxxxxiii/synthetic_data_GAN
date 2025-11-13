@@ -7,7 +7,7 @@ synthetic_data_tau0.1_v3_251113.xlsx
 ## **模型名称**
 gan_tau0.1.pkl
 ## **分布概览**
-![image](url)
+![image](https://github.com/Xxxxxxiii/synthetic_data_GAN/blob/master/result_pics/distribution_v3.png)
 
 
 # ⭐2025/11/12
@@ -69,4 +69,8 @@ Q_total：总热量，公式为`Q_total = flow_cow × (temp_in - temp_out) × c_
 2. `freq_fan_1, freq_fan_2, freq_fan_3, flow_cow >= 0`
 3. `temp_out >= 湿球温度`
 4. 生成数据中各字段范围不超过原数据中各字段范围
+
+## **分布概览**
+![image](https://github.com/Xxxxxxiii/synthetic_data_GAN/blob/master/result_pics/distribution_v1.png)
+
 
