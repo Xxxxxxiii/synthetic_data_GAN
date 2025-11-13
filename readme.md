@@ -3,7 +3,7 @@
 ## **合成数据**
 synthetic_data_tau0.1_v3_251113.xlsx
 ## **数据条数**
-85347 rows × 8 columns
+82340 rows × 8 columns
 ## **模型名称**
 gan_tau0.1.pkl
 ## **分布概览**
