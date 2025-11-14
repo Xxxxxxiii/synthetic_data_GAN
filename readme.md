@@ -11,7 +11,7 @@ marked_model.pkl
 为原始数据添加了`rare`列。
 `rare=1`代表稀有(rare)，`rare=0`代表普通(ordinary).
 
-判定方法来自稀有度分数，由置信度分数减新颖度分数得到，计算公式为`scarcity_score = confidence_score + novelty_score`。
+判定方法来自稀有度分数，由新颖度分数减置信度分数得到，计算公式为`scarcity_score = - confidence_score + novelty_score`。
 
 v6数据取稀有度前10%的数据记`rare=1`.
 
