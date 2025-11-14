@@ -35,7 +35,7 @@ gan_tau0.1.pkl
 # ⭐2025/11/12
 提取5%稀有数据
 ## **合成数据**
-scarce_0.05_cooler_251112.xlsx
+🟢 scarce_0.05_cooler_251112.xlsx
 ## **数据条数**
 12134 rows × 8 columns
 
@@ -43,7 +43,7 @@ scarce_0.05_cooler_251112.xlsx
 # ⭐ 2025/11/11
 冷却塔模型合成数据
 ## **合成数据**
-synthetic_data_filtered_v1_251111.xlsx
+🟢 synthetic_data_filtered_v1_251111.xlsx
 ## **数据条数**
 242682 rows × 13 columns
 ## **字段含义**
