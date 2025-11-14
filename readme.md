@@ -23,7 +23,7 @@ gan_tau0.2_eps100.pkl
 
 温度下调 0.2 -> 0.1
 ## **合成数据**
-synthetic_data_tau0.2_eps100_v4_251113.xlsx
+🟢 synthetic_data_tau0.2_eps100_v4_251113.xlsx
 ## **数据条数**
 82340 rows × 8 columns
 ## **模型名称**
