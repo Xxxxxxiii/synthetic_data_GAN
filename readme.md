@@ -1,7 +1,29 @@
+# ⭐2025/11/14
+温度0.1，epochs加100
+## **合成数据**
+🟢 synthetic_data_tau0.1_eps100_v5_251114.xlsx
+## **数据条数**
+91640 rows × 8 columns
+## **模型名称**
+gan_tau0.1_eps100.pkl
+## **分布概览**
+![image](https://github.com/Xxxxxxiii/synthetic_data_GAN/blob/master/result_pics/distribution_v5.png)
+
+
 # ⭐2025/11/13
+温度保持0.2不变，epochs加大25 -> 100
+## **合成数据**
+🟢 synthetic_data_tau0.1_v4_251113.xlsx
+## **数据条数**
+90819 rows × 8 columns
+## **模型名称**
+gan_tau0.2_eps100.pkl
+## **分布概览**
+![image](https://github.com/Xxxxxxiii/synthetic_data_GAN/blob/master/result_pics/distribution_v4.png)
+
 温度下调 0.2 -> 0.1
 ## **合成数据**
-synthetic_data_tau0.1_v3_251113.xlsx
+synthetic_data_tau0.2_eps100_v4_251113.xlsx
 ## **数据条数**
 82340 rows × 8 columns
 ## **模型名称**
@@ -18,7 +40,7 @@ scarce_0.05_cooler_251112.xlsx
 12134 rows × 8 columns
 
 
-# 🟢 2025/11/11
+# ⭐ 2025/11/11
 冷却塔模型合成数据
 ## **合成数据**
 synthetic_data_filtered_v1_251111.xlsx
