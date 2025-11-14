@@ -1,17 +1,38 @@
 # ⭐2025/11/14
+**引入bool型变量'rare'作为条件约束，提高稀有数据的生成概率**
+## **合成数据**
+🔴 v7
+🟢 synthetic_data_bool_fixed_clean_metrics_v7-final_251114.xlsx
+## **模型名称**
+marked_model.pkl
+## **分布概览**
+![image](https://github.com/Xxxxxxiii/synthetic_data_GAN/blob/master/result_pics/distribution_v7.png)
+## **预处理数据**
+为原始数据添加了`rare`列。
+`rare=1`代表稀有(rare)，`rare=0`代表普通(ordinary).
+
+判定方法来自稀有度分数，由置信度分数减新颖度分数得到，计算公式为`scarcity_score = confidence_score + novelty_score`。
+
+v6数据取稀有度前10%的数据记`rare=1`.
+
+🔴 v6
+🟢 scarce_data_marked_v6_251114.xlsx
+
+
 温度0.1，epochs100
 ## **合成数据**
+🔴 v5
 🟢 synthetic_data_tau0.1_eps100_v5_251114.xlsx
 ## **模型名称**
 gan_tau0.1_eps100.pkl
 ## **分布概览**
 ![image](https://github.com/Xxxxxxiii/synthetic_data_GAN/blob/master/result_pics/distribution_v5.png)
 
-
 # ⭐2025/11/13
 温度保持0.2不变，epochs加大25 -> 100
 ## **合成数据**
-🟢 synthetic_data_tau0.1_v4_251113.xlsx
+🔴 v4
+🟢 synthetic_data_tau0.2_eps100_v4_251113.xlsx
 ## **模型名称**
 gan_tau0.2_eps100.pkl
 ## **分布概览**
@@ -19,9 +40,8 @@ gan_tau0.2_eps100.pkl
 
 温度下调 0.2 -> 0.1
 ## **合成数据**
-🟢 synthetic_data_tau0.2_eps100_v4_251113.xlsx
-## **数据条数**
-82340 rows × 8 columns
+🔴 v3
+🟢 synthetic_data_tau0.1_v3_251113.xlsx
 ## **模型名称**
 gan_tau0.1.pkl
 ## **分布概览**
@@ -37,6 +57,7 @@ gan_tau0.1.pkl
 # ⭐ 2025/11/11
 冷却塔模型合成数据
 ## **合成数据**
+🔴 v1
 🟢 synthetic_data_filtered_v1_251111.xlsx
 ## **字段含义**
 ### 原物理量字段
