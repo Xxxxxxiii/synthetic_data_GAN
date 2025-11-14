@@ -6,7 +6,7 @@
 ## **模型名称**
 marked_model.pkl
 ## **分布概览**
-![image](https://github.com/Xxxxxxiii/synthetic_data_GAN/blob/master/result_pics/distribution_v7.png)
+![image](https://github.com/Xxxxxxiii/synthetic_data_GAN/blob/master/result_pics/distribution_v7-final.png)
 ## **预处理数据**
 为原始数据添加了`rare`列。
 `rare=1`代表稀有(rare)，`rare=0`代表普通(ordinary).
